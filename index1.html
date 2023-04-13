@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora em PHP</title>
+</head>
+<body>
+	<h1>Calculadora em PHP</h1>
+	<form action="calculadora.php" method="POST">
+		<label>Número 1:</label>
+		<input type="number" name="num1"><br><br>
+		<label>Número 2:</label>
+		<input type="number" name="num2"><br><br>
+		<label>Operação:</label>
+		<select name="operacao">
+			<option value="soma">+</option>
+			<option value="subtracao">-</option>
+			<option value="multiplicacao">*</option>
+			<option value="divisao">/</option>
+		</select><br><br>
+		<input type="submit" value="Calcular">
+	</form>
+</body>
+</html>
